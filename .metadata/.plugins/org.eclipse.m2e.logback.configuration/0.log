@@ -1905,3 +1905,4 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 2018-06-13 19:26:07,258 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2018-06-13 19:26:07,271 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-06-13 19:26:07,274 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-13 19:26:07,274 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
