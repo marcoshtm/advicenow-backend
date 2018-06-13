@@ -816,3 +816,15 @@ Java Model Exception: Java Model Status [br.com.advicenow [in src/main/java/br/c
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
 !SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-06-12 15:35:21.305
 !MESSAGE br.com.advicenow [in src/main/java/br/com/advicenow [in advicenow]] does not exist
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-12 17:33:23.321
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-12 17:33:23.322
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-12 17:33:23.449
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-12 17:33:23.452
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
