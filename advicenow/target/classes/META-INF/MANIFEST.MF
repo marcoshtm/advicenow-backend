@@ -1,10 +1,11 @@
 Manifest-Version: 1.0
-Implementation-Title: advicenow
-Implementation-Version: 1.0.0-SNAPSHOT
+Implementation-Title: Spring Boot Data MongoDB Sample
+Implementation-Version: 1.5.3.RELEASE
 Built-By: Marcos_Hartmann
-Implementation-Vendor-Id: br.com
+Implementation-Vendor-Id: org.springframework.boot
 Build-Jdk: 1.8.0_152
-Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
- ot-starter-parent/advicenow
+Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-
+ sample-data-mongodb/
 Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
 

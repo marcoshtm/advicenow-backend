@@ -1,0 +1,24 @@
+package br.advicenow.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.mongodb.MongoClient;
+import com.mongodb.MongoClientURI;
+import com.mongodb.client.MongoDatabase;
+
+@Controller
+public class HomeController
+{
+
+   @GetMapping("/")
+   public String index()
+   {
+	   	String connStr = "mongodb+srv://standarduser:QPmIGjo78qiu7XCG@cluster0.mongodb.net";
+		MongoClientURI uri = new MongoClientURI(connStr);
+		MongoClient mongoClient = new MongoClient(uri);
+		MongoDatabase database = mongoClient.getDatabase("test");
+	   
+      return "home/index";
+   }
+}

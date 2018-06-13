@@ -1,0 +1,25 @@
+package br.advicenow;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.mongodb.MongoClient;
+import com.mongodb.MongoClientURI;
+import com.mongodb.client.MongoDatabase;
+
+@SpringBootApplication
+public class Boot
+{
+   public static void main(String[] args)
+   {
+      SpringApplication.run(Boot.class, args);
+   }
+   
+   @Override
+   public void run(String... args) throws Exception {
+	   	String connStr = "mongodb+srv://standarduser:QPmIGjo78qiu7XCG@cluster0.mongodb.net";
+		MongoClientURI uri = new MongoClientURI(connStr);
+		MongoClient mongoClient = new MongoClient(uri);
+		MongoDatabase database = mongoClient.getDatabase("test");
+   }
+}
