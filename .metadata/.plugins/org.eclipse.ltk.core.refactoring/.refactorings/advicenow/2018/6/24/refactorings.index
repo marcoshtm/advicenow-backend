@@ -16,3 +16,5 @@
 1529074629019	Encapsulate field 'lastLogin'
 1529076130855	Copy compilation units
 1529081366749	Rename field 'repository'
+1529081831441	Rename type 'MongoApplicationRunner'
+1529081845707	Delete element
