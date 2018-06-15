@@ -1,0 +1,46 @@
+package advicenow.domain.user;
+
+public class User {
+    private final Long userId;
+    private final String email;
+    private final String phone;
+    private final String firstName;
+    private final String lastName;
+	
+    /*
+    private final char gender;
+    private final LocalDateTime lastLogin;
+    private final LocalDateTime creationDate;
+    */
+    
+    public Long getUserId() {
+		return userId;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public String getPhone() {
+		return phone;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+    
+    
+	/*
+	{
+		"user_id": "232",
+		"email": "user@email.com",
+		"phone:": "5511998117823",
+		"first_name": "John",
+		"last_name": "Miles",
+		"gender": "M",
+		"birth": "01/10/1990",
+		"last_login": "15/05/2018",
+		"creation_date": "01/04/2018"
+	}
+	*/
+}

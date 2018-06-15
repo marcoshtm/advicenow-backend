@@ -1,0 +1,5 @@
+package advicenow.domain.user;
+
+public class User {
+
+}
