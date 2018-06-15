@@ -56,7 +56,7 @@ public class User {
 	public LocalDate getBirthDate() {
 		return birthDate;
 	}
-	
+
 	public LocalDateTime getLastLogin() {
 		return lastLogin;
 	}
@@ -64,24 +64,10 @@ public class User {
 	public LocalDateTime getCreationDate() {
 		return creationDate;
 	}
-	
+
 	@Override
 	public String toString() {
-		return String.format("User[user_id=%s, firstName='%s', lastName='%s', email='%s', phone='%s', gender='%s', birthDate='%s', lastLogin='%s', creationDate='%s']", 
+		return String.format("User[userId=%s, firstName='%s', lastName='%s', email='%s', phone='%s', gender='%s', birthDate='%s', lastLogin='%s', creationDate='%s']", 
 				this.userId, this.firstName, this.lastName, this.email, this.phone, this.gender, this.birthDate, this.lastLogin, this.creationDate);
 	}
-    
-	/*
-	{
-		"user_id": "232",
-		"first_name": "John",
-		"last_name": "Miles",
-		"email": "user@email.com",
-		"phone:": "5511998117823",
-		"gender": "M",
-		"birth": "01/10/1990",
-		"last_login": "15/05/2018",
-		"creation": "01/04/2018"
-	}
-	*/
 }

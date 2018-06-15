@@ -18,3 +18,18 @@
 1529081366749	Rename field 'repository'
 1529081831441	Rename type 'MongoApplicationRunner'
 1529081845707	Delete element
+1529082730303	Copy compilation unit
+1529082768161	Copy compilation unit
+1529082783730	Rename type 'UserService'
+1529082959999	Copy compilation unit
+1529083049208	Copy compilation unit
+1529083535657	Copy compilation unit
+1529083555101	Delete element
+1529083557209	Copy compilation unit
+1529083560820	Delete element
+1529083844014	Copy compilation unit
+1529084805222	Move compilation unit
+1529085435225	Move compilation unit
+1529085439846	Delete element
+1529085556357	Rename type 'ApplicationRunner'
+1529086212467	Rename type 'Message'

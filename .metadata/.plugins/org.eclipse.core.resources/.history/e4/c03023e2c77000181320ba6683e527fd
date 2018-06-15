@@ -1,0 +1,13 @@
+package advicenow.domain.message;
+
+import java.util.List;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface MessageRepository extends MongoRepository<AdviceMessage, String> {
+
+	AdviceMessage findByMessageId(Long messageId);
+
+	List<AdviceMessage> findByAdviceId(Long adviceId);
+
+}

@@ -1,0 +1,18 @@
+package advicenow.domain.message;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MessageController {
+
+	@Autowired
+	private MessageRepository repository;
+	
+	@RequestMapping("/message")
+    public AdviceMessage getMessageById(@RequestParam(value="messageId", defaultValue="1") String messageId) {
+		return this.repository.findByMessageId(Long.parseLong(messageId));
+    }
+}
