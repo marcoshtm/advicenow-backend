@@ -12,7 +12,7 @@ public class UserController {
 	private UserRepository repository;
 	
 	@RequestMapping("/user")
-    public User getUser(@RequestParam(value="name", defaultValue="Lisa") String name) {
-		return this.repository.findByFirstName(name);
+    public User getUser(@RequestParam(value="name", defaultValue="World") String name) {
+		return this.repository.findByFirstName("Lisa");
     }
 }
