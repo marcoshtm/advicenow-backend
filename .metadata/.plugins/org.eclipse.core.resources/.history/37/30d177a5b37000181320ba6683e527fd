@@ -1,16 +1,16 @@
 package advicenow.domain.user;
 
+import java.util.concurrent.atomic.AtomicLong;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 
 @SpringBootApplication
 public class MongoApplicationRunner implements CommandLineRunner {
 
 	@Autowired
 	private UserService userService;
-	
+
 	@Override
 	public void run(String... args) throws Exception {
 		userService.createSampleUsers();
@@ -19,4 +19,5 @@ public class MongoApplicationRunner implements CommandLineRunner {
 	public static void main(String[] args) {
 		SpringApplication.run(MongoApplicationRunner.class, args);
 	}
+
 }
