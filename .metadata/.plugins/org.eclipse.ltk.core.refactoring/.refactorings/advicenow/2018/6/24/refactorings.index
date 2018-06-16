@@ -1,35 +1,6 @@
-1528828232393	Delete element
-1528828537765	Copy compilation unit
-1528828544393	Delete element
-1528828560892	Move compilation unit
-1528828570165	Move compilation unit
-1528828576786	Move compilation unit
-1528828581236	Delete element
-1528828595398	Rename package 'br.com.advicenow.controllers'
-1528928242591	Delete elements
-1528928247741	Delete element
-1528928284922	Delete element
-1528928725160	Delete elements
-1529005614692	Delete element
-1529074041275	Copy compilation unit
-1529074121035	Copy compilation unit
-1529074629019	Encapsulate field 'lastLogin'
-1529076130855	Copy compilation units
-1529081366749	Rename field 'repository'
-1529081831441	Rename type 'MongoApplicationRunner'
-1529081845707	Delete element
-1529082730303	Copy compilation unit
-1529082768161	Copy compilation unit
-1529082783730	Rename type 'UserService'
-1529082959999	Copy compilation unit
-1529083049208	Copy compilation unit
-1529083535657	Copy compilation unit
-1529083555101	Delete element
-1529083557209	Copy compilation unit
-1529083560820	Delete element
-1529083844014	Copy compilation unit
-1529084805222	Move compilation unit
-1529085435225	Move compilation unit
-1529085439846	Delete element
-1529085556357	Rename type 'ApplicationRunner'
-1529086212467	Rename type 'Message'
+1529189197928	Copy compilation unit
+1529189748218	Copy compilation unit
+1529189879184	Copy compilation unit
+1529189961100	Copy compilation unit
+1529190214936	Copy compilation unit
+1529190662827	Copy compilation unit

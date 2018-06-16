@@ -42,7 +42,7 @@ public class Message {
 
 	@Override
 	public String toString() {
-		return String.format("User[messageId=%s, adviceId='%s', userId='%s', creationDate='%s', message='%s']", 
+		return String.format("User[messageId=%s, adviceId=%s, userId=%s, creationDate='%s', message='%s']", 
 				this.messageId, this.adviceId, this.userId, this.creationDate, this.message);
 	}
 }
