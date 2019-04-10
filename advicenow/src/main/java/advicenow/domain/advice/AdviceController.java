@@ -18,6 +18,7 @@ public class AdviceController {
 		return this.repository.findByAdviceId(Long.parseLong(adviceId));
     }
 	
+	//http://localhost:8080/advicesAsked?askUserId=2
 	@RequestMapping("/advicesAsked")
     public List<Advice> findByAskUserId(@RequestParam(value="askUserId") String askUserId) {
 		return this.repository.findByAskUserId(Long.parseLong(askUserId));

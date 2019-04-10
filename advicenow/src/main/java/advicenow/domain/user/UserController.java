@@ -11,6 +11,8 @@ public class UserController {
 	@Autowired
 	private UserRepository repository;
 	
+	//http://localhost:8080/user
+	//http://localhost:8080/user?name=Lisa
 	@RequestMapping("/user")
     public User getUser(@RequestParam(value="name", defaultValue="Lisa") String name) {
 		return this.repository.findByFirstName(name);

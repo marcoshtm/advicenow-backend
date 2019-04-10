@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: Spring Boot Data MongoDB Sample
-Implementation-Version: 2.0.2.RELEASE
-Built-By: MarcosIanes
+Implementation-Version: 2.1.4.RELEASE
+Built-By: Marcos_Hartmann
 Implementation-Vendor-Id: org.springframework.boot
-Build-Jdk: 1.8.0_101
+Build-Jdk: 1.8.0_152
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
  ot-starter-parent/spring-boot-sample-data-mongodb
 Created-By: Maven Integration for Eclipse
